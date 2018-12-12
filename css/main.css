@@ -19,6 +19,24 @@ p {
   font-weight: bold;
   font-family: Roboto; }
 
+.custom-control-label::before {
+  border: 2px solid #4A4A4A; }
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #062C5F;
+  border-radius: 100%; }
+
+.carousel-indicators .active {
+  background-color: blue; }
+
+.carousel-indicators li {
+  background-color: #007bff;
+  border: 1px solid #dee4ea;
+  border-radius: 50%;
+  heigth: 20px;
+  margin-top: 200px;
+  width: 20px; }
+
 .btn-color {
   background-color: #000;
   border-radius: 50px;
@@ -66,8 +84,5 @@ p {
 
 h2, h5 {
   font-weight: bold; }
-
-.bttn-64, .bttn-128 {
-  color: #4A4A4A; }
 
 /*# sourceMappingURL=main.css.map */
