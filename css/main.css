@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #fff; }
+
+p {
+  color: #898989; }
+
+.regalo {
+  color: #E6884C;
+  font-weight: bold;
+  font-size: 1rem; }
+
+.modelo {
+  color: #4A4A4A;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Roboto; }
+
+#GB {
+  color: #2862ac;
+  background-color: transparent;
+  font-weight: bold; }
+  #GB:focus {
+    box-shadow: none; }
+
+.planes {
+  border: 1px solid #02b0ef;
+  border-radius: 5px;
+  color: #4A4A4A;
+  font-weight: bold; }
+  .planes:hover {
+    background-color: #f1fbff;
+    border: 1px solid blue;
+    color: #062C5F; }
+    .planes:hover label {
+      font-weight: bold; }
+
+.s-compra {
+  color: #062C5F; }
+  .s-compra strong, .s-compra i {
+    color: #2862ac; }
+
+/*# sourceMappingURL=main.css.map */
