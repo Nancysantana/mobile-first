@@ -54,6 +54,10 @@ p {
   background-image: none;
   height: 50px; }
 
+.w-img {
+  margin-left: 15%;
+  width: 70%; }
+
 .btn-color {
   background-color: #000;
   border-radius: 50px;
