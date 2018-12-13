@@ -13,7 +13,7 @@
 
 * Recomiendo el uso de SASS para manejar los estilos.
 
-![Prueba uno](assets/images/maqueta.png)
+![Prueba uno](assets/images/Maqueta1.png)
 
 ![Prueba dos](assets/images/mov.png)
 
@@ -32,9 +32,9 @@
 * Github
 
 
-#### Realizado por Nancy Santana para Multiplica
+### Realizado por Nancy Santana para Multiplica
 
-Al realizar este proyecto no tenia ningun conocimiento sobre Sass, una vez que lo comencé a utilizar pude observar que tienes la opción de dividir tus estilos en diferentes archivo y compilarlos en uno solo lo que te permite tener más organizado tu código. Sass también te permite utilizar variables al momento de cambiar el color o estilo en diferentes secciones del maquetado y te ahorra tiempo, existen muchas más ventajas al utilizar sass.
+Al realizar este proyecto no tenia ningun conocimiento sobre Sass, una vez que lo comencé a utilizar pude observar que tienes la opción de dividir tus estilos en diferentes archivos y compilarlos en uno solo lo que te permite tener más organizado tu código. Sass también te permite utilizar variables al momento de cambiar el color o estilo en diferentes secciones del maquetado y te ahorra tiempo, existen muchas más ventajas al utilizar sass.
 
 
 Comenzar a maquetar desde la versión mobile me permitió visualizar mejor la estructura y detectar errores al maquetar.
