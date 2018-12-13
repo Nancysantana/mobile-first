@@ -19,6 +19,9 @@ p {
   font-weight: bold;
   font-family: Roboto; }
 
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: none; }
+
 .custom-control-label::before {
   border: 2px solid #4A4A4A; }
 
@@ -30,18 +33,32 @@ p {
   background-color: blue; }
 
 .carousel-indicators li {
-  background-color: #007bff;
-  border: 1px solid #dee4ea;
+  background-color: #fff;
+  border: 2px solid #dee4ea;
   border-radius: 50%;
-  heigth: 20px;
-  margin-top: 200px;
-  width: 20px; }
+  height: 15px;
+  top: 47px;
+  width: 15px; }
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 30px;
+  color: blue; }
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 30px;
+  color: blue; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+  height: 50px; }
 
 .btn-color {
   background-color: #000;
   border-radius: 50px;
   padding: 10px;
-  heigth: 15px;
+  height: 15px;
   width: 15px; }
 
 .GB, .paso {
@@ -55,10 +72,11 @@ p {
 .paso {
   color: #062C5F;
   border: 2px solid #062C5F;
-  border-radius: 100px;
+  border-radius: 50%;
   margin-bottom: 5px;
-  heigth: 35px;
-  width: 40px; }
+  height: 30px;
+  padding: 0px 0px 2px 0px;
+  width: 30px; }
 
 .planes {
   background-color: #f1f1f1;
